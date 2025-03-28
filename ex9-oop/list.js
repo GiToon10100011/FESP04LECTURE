@@ -1,7 +1,12 @@
-import {test1,test2} from './new-menu.js';
-test1();
-test2();
+import NewMenu, {test1 as rr} from './new-menu.js';
+//rr();
+//test2();
 
-class list{
+class list{    
+    constructor(menu){
+        this.menu = menu;
+    }
+    render(){
 
+    }
 }
